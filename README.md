@@ -33,7 +33,7 @@ A simple front-end crypto wallet application built using **React**, **Vite**, an
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/crypto-wallet.git
+git clone https://github.com/your-username/crypto-wallet.git <br>
 cd crypto-wallet/client
 
 ### 2.Install Dependencies
@@ -44,19 +44,19 @@ npm install
 
 ### 1. Start the Frontend (React + Vite)
 
-npm run dev
+npm run dev <br>
 Open your browser at http://localhost:5173
 
 ### 2. Start the Backend Server (in a separate terminal)
 
-cd ../server
-node index.js
+cd ../server <br>
+node index.js <br>
 Make sure the backend is listening on http://localhost:3042
 
 ### 📌 Example Workflow
 
-Enter a private key (generates wallet address)
-View current balance
-Enter recipient address and amount
-Sign the transaction using your private key
-Submit and update balances
+Enter a private key (generates wallet address) <br>
+View current balance <br>
+Enter recipient address and amount <br>
+Sign the transaction using your private key <br>
+Submit and update balances <br>
