@@ -55,8 +55,8 @@ Make sure the backend is listening on http://localhost:3042
 
 ### 📌 Example Workflow
 
-Enter a private key (generates wallet address) <br>
-View current balance <br>
-Enter recipient address and amount <br>
-Sign the transaction using your private key <br>
-Submit and update balances <br>
+- Enter a private key (generates wallet address) <br>
+- View current balance <br>
+- Enter recipient address and amount <br>
+- Sign the transaction using your private key <br>
+- Submit and update balances <br>
