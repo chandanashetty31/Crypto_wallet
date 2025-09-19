@@ -5,24 +5,24 @@ It uses **public/private key cryptography** to allow users to see balances and s
 
 > ⚠️ This is a learning / demo project, not production-ready.
 
----
+--
 
 ## Project Structure
 
-/client # React frontend
+/client # React frontend 
 ├─ src
 │ ├── Wallet.jsx
 │ ├── Transfer.jsx
 │ └── server.js (axios config)
 └─ package.json
 
-/server # Express backend
-├─ index.js
-├─ package.json
-└─ (optional) scripts/
+/server # Express backend  <br>
+├─ index.js <br>
+├─ package.json  <br>
+└─ (optional) scripts/ <br>
 
 
----
+--
 
 ## Key Concepts / Flow
 
@@ -58,19 +58,19 @@ It uses **public/private key cryptography** to allow users to see balances and s
 
 ### Setup
 
-# In server folder
+### In server folder
 npm install
 
-# In client folder
+### In client folder
 npm install
 
 ### Running
 
-# Start the backend :-
+### Start the backend :-
 cd server
 nodemon index.js  or node index.js
 
-# Start the frontend :-
+### Start the frontend :-
 cd client
 npm run dev
 
