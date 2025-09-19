@@ -5,24 +5,22 @@ It uses **public/private key cryptography** to allow users to see balances and s
 
 > ⚠️ This is a learning / demo project, not production-ready.
 
-----
 
 ## Project Structure
 
-/client # React frontend 
-├─ src
-│ ├── Wallet.jsx
-│ ├── Transfer.jsx
-│ └── server.js (axios config)
-└─ package.json
+/client # React frontend  <br>
+├─ src  <br>
+│ ├── Wallet.jsx  <br>
+│ ├── Transfer.jsx  <br>
+│ └── server.js (axios config)  <br>
+└─ package.json  <br>
 
 /server # Express backend  <br>
 ├─ index.js <br>
 ├─ package.json  <br>
-└─ (optional) scripts/ <br>
+└─  scripts/ <br>
 
 
---
 
 ## Key Concepts / Flow
 
@@ -48,7 +46,6 @@ It uses **public/private key cryptography** to allow users to see balances and s
    - The backend keeps an **in-memory** `balances` map (`address → amount`).
    - This is not persistent; restarting the server resets balances.
 
----
 
 ##  Getting Started
 
