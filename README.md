@@ -5,7 +5,7 @@ It uses **public/private key cryptography** to allow users to see balances and s
 
 > ⚠️ This is a learning / demo project, not production-ready.
 
---
+----
 
 ## Project Structure
 
